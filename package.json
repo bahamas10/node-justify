@@ -1,0 +1,21 @@
+{
+  "name": "justify",
+  "description": "Left or right (or both) justify text using a custom width and character",
+  "author": "Dave Eddy <dave@daveeddy.com> (http://www.daveeddy.com)",
+  "version": "0.0.0",
+  "repository": {
+    "url": "https://github.com/bahamas10/node-justify.git",
+    "type": "git"
+  },
+  "main": "justify.js",
+  "scripts" : {
+    "test": "for f in tests/*.js; do echo \"$f\"; node \"$f\" || exit 1; echo; done; echo 'Passed'"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "bin": {},
+  "engines": {
+  },
+  "keywords": [ "justify", "text", "align", "dots" ]
+}
